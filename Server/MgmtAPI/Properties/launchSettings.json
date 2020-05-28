@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MgmtAPI": {
+      "commandName": "Project",
+      "commandLineArgs": "--urls https://*:6001"
+    }
+  }
+}

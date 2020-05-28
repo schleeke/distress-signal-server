@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MgmtAPI</name>
+    </assembly>
+    <members>
+        <member name="T:MgmtAPI.Controllers.TestController">
+            <summary>
+            A controller for testing purpose.
+            </summary>
+        </member>
+        <member name="M:MgmtAPI.Controllers.TestController.Get">
+            <summary>
+            HTTP GET method for testing purpose.
+            </summary>
+            <returns>The string "foo bar".</returns>
+        </member>
+        <member name="T:MgmtAPI.Program">
+            <summary>
+            Master Control Program ;)
+            </summary>
+        </member>
+        <member name="M:MgmtAPI.Program.Main(System.String[])">
+            <summary>
+            Application's main/entry method.
+            </summary>
+            <param name="args">The arguments from the command line.</param>
+            <returns>Zero (0) if everything went fine.</returns>
+        </member>
+        <member name="T:MgmtAPI.Startup">
+            <summary>
+            Manages the Web Server / Kestrel configuration.
+            </summary>
+        </member>
+        <member name="M:MgmtAPI.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <inheritdoc/>
+        </member>
+        <member name="P:MgmtAPI.Startup.Configuration">
+            <summary>
+            The application's configuraton.
+            </summary>
+        </member>
+        <member name="M:MgmtAPI.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Configures the middleware services.
+            </summary>
+            <param name="services">The collection of available middleware services.</param>
+        </member>
+        <member name="M:MgmtAPI.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            Configures the Web Server / Kestrel host.
+            </summary>
+            <param name="app">The current web application.</param>
+            <param name="env">The runtime environment.</param>
+        </member>
+    </members>
+</doc>

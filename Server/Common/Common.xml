@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Common</name>
+    </assembly>
+    <members>
+        <member name="T:Common.Zone">
+            <summary>
+            A zone containing clients.
+            </summary>
+            <remarks>
+            Can have child-zones.
+            </remarks>
+        </member>
+        <member name="M:Common.Zone.#ctor">
+            <inheritdoc />
+        </member>
+        <member name="P:Common.Zone.ChildZones">
+            <summary>
+            A list of child zones.
+            </summary>
+            <remarks>
+            Can be empty.
+            </remarks>
+        </member>
+        <member name="P:Common.Zone.Identifier">
+            <summary>
+            The unique identifier for the zone.
+            </summary>
+        </member>
+    </members>
+</doc>
